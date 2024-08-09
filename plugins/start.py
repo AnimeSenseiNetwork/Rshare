@@ -130,8 +130,8 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup([
             [InlineKeyboardButton("Help", callback_data='help'),
              InlineKeyboardButton("About", callback_data='about')],
-            [InlineKeyboardButton('Main Channel', url='https://t.me/Anime_X_Hunters'),
-             InlineKeyboardButton('Ongoing Channel', url='https://t.me/Ongoing_Anime_X_Hunter')],
+            [InlineKeyboardButton('🔞JOIN ADULTS', url='https://t.me/Alliance_Planet'),
+             InlineKeyboardButton('ANIME CHANNEL', url='https://t.me/Anime_Bloodline')],
             [InlineKeyboardButton("Close", callback_data='close')]
         ])
         await message.reply_photo(
@@ -159,11 +159,11 @@ REPLY_ERROR = """<code>Use this command as a replay to any telegram message with
 async def not_joined(client: Client, message: Message):
     btn = []
     if FORCE_CHANNEL:
-        btn.append(InlineKeyboardButton("Join Channel 1", url=client.invitelink))
+        btn.append(InlineKeyboardButton("⚡Join Channel⚡", url=client.invitelink))
     if FORCE_CHANNEL2:
-        btn.append(InlineKeyboardButton("Join Channel 2", url=client.invitelink2))
+        btn.append(InlineKeyboardButton("⚡Join Channel⚡", url=client.invitelink2))
     if REQUEST_CHANNEL:
-        btn.append(InlineKeyboardButton("Join Channel 3", url=client.link_one))
+        btn.append(InlineKeyboardButton("⚡Join Channel⚡", url=client.link_one))
 
     # Arrange buttons in a single row if only two are available
     if len(btn) == 2:
