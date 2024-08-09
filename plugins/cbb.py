@@ -39,7 +39,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 [InlineKeyboardButton("ʜᴇʟᴘ", callback_data='help'),
                  InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data='about')],
                 [InlineKeyboardButton('🔞JOIN ADULTS 18+', url='https://t.me/Alliance_planet'),
-                 InlineKeyboardButton('ANIME CHANNEL', url='https://t.me/Anime_Bloodline)],
+                 InlineKeyboardButton('ANIME CHANNEL', url='https://t.me/Anime_Bloodline')],
                 [InlineKeyboardButton("ᴄʟᴏꜱᴇ", callback_data='close')]
             ])
         )
