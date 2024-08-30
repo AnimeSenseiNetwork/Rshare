@@ -27,8 +27,8 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://mex:rex@cluster7.jrzowqz.
 DB_NAME = os.environ.get("DATABASE_NAME", "papa1234")
 
 # Put 0 on on that which you don't want to enable
-FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "-1002044619047"))
-FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "-1002173795861"))
+FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "-1002173795861"))
+FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "-1002044619047"))
 REQUEST_CHANNEL = int(os.environ.get("REQUEST_CHANNEL", "-1002150655465"))
 
 #TXT
