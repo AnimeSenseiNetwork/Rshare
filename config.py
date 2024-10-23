@@ -24,7 +24,7 @@ PORT = os.environ.get("PORT", "8080")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://animesensei:animesensei11@animesensei.o6zhyp8.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "papa1234")
+DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 # Put 0 on on that which you don't want to enable
 FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "-1002006526449"))
@@ -36,8 +36,8 @@ HELP_TXT = "<b>Hi Dude!\nThis is an file to link bot work for @Alliance_Planet\n
 ABOUT_TXT = "<b><i>About Us..\n\n‣ Made for : @Alliance_Planet\n‣ Owned by : @RarelySukuna\n‣ Maintained by : @RarelySukuna\n‣ Developed by : @RarelySukuna\n\n Adios !!</i></b>"
 
 #PICS
-START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/b80d277d0cd8d861522fc.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/59e3cb7c12205d4f2a7c4.jpg")
+START_PIC = os.environ.get("START_PIC", "https://graph.org/file/cf462f10a7da1037af6d8.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/cf462f10a7da1037af6d8.jpg")
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
