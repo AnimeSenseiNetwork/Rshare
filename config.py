@@ -23,13 +23,13 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "2036803347"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://mex:rex@cluster7.jrzowqz.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://animesensei:animesensei11@animesensei.o6zhyp8.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "papa1234")
 
 # Put 0 on on that which you don't want to enable
-FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "-1002173795861"))
-FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "-1002044619047"))
-REQUEST_CHANNEL = int(os.environ.get("REQUEST_CHANNEL", "-1002150655465"))
+FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "-1002006526449"))
+FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "-1001960616143"))
+REQUEST_CHANNEL = int(os.environ.get("REQUEST_CHANNEL", "-1002237693100"))
 
 #TXT
 HELP_TXT = "<b>Hi Dude!\nThis is an file to link bot work for @Alliance_Planet\n\n❏ Bot Cammands\n├/start : start the bot\n├/about : Our Information\n└/help : Help related Bot\n\n💥 Simply click on link and start the bot join both channels and try again thats it.....!\n\n🧑‍💻 Developed by <a href=https://t.me/RarelySukuna>S U K U N A</a></b>"
