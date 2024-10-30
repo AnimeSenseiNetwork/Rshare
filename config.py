@@ -27,7 +27,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://animesensei:animesensei11
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 # Put 0 on on that which you don't want to enable
-FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "-100"))
+FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "-1002237693100"))
 FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "-1001784672307"))
 REQUEST_CHANNEL = int(os.environ.get("REQUEST_CHANNEL", "-1002425309993"))
 
@@ -51,7 +51,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "😐sᴏʀʀʏ ! ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ ᴊᴏɪɴᴇᴅ ᴄʜᴀɴɴᴇʟ ᴘʟᴇᴀsᴇ😋 ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛʜᴇɴ ᴛʀʏ ᴀɢᴀɪɴ.")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "😐sᴏʀʀʏ ! ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ ᴊᴏɪɴᴇᴅ ᴄʜᴀɴɴᴇʟ ᴘʟᴇᴀsᴇ😋 ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛʜᴇɴ ᴛʀʏ ᴀɢᴀɪɴ. Note : ᴍᴜsᴛ ᴊᴏɪɴ @Anime_Sensei_Network ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
