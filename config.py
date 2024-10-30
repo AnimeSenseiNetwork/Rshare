@@ -27,7 +27,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://animesensei:animesensei11
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 # Put 0 on on that which you don't want to enable
-FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "-1002056364748"))
+FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", ""))
 FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "-1001784672307"))
 REQUEST_CHANNEL = int(os.environ.get("REQUEST_CHANNEL", "-1002425309993"))
 
