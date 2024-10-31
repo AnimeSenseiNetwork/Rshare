@@ -159,7 +159,7 @@ REPLY_ERROR = """<code>Use this command as a replay to any telegram message with
 async def not_joined(client: Client, message: Message):
     btn = []
     if FORCE_CHANNEL:
-        btn.append(InlineKeyboardButton("ᴊᴏɪɴ 1", url="https://t.me/PAWSOG_bot/PAWS?startapp=D8pt03S2"))
+        btn.append(InlineKeyboardButton("ᴊᴏɪɴ 1", url=client.invitelink))
     if FORCE_CHANNEL2:
         btn.append(InlineKeyboardButton("ᴊᴏɪɴ 2", url=client.invitelink2))
     if REQUEST_CHANNEL:
