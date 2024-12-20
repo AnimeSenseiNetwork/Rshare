@@ -28,7 +28,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 # Put 0 on on that which you don't want to enable
 FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "-1002237693100"))
-FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "-1001784672307"))
+FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "-1001760428426"))
 REQUEST_CHANNEL = int(os.environ.get("REQUEST_CHANNEL", "-1002213823415"))
 
 #TXT
