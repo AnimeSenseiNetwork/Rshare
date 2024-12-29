@@ -51,7 +51,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "😐sᴏʀʀʏ ! ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ ᴊᴏɪɴᴇᴅ ᴄʜᴀɴɴᴇʟ ᴘʟᴇᴀsᴇ😋 ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛʜᴇɴ ᴛʀʏ ᴀɢᴀɪɴ. Note : ᴍᴜsᴛ ᴊᴏɪɴ **https://t.me/+Rh_eKVXt0tJkOWY1** ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "😐sᴏʀʀʏ ! ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ ᴊᴏɪɴᴇᴅ ᴄʜᴀɴɴᴇʟ ᴘʟᴇᴀsᴇ😋 ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛʜᴇɴ ᴛʀʏ ᴀɢᴀɪɴ. Note : ᴍᴜsᴛ ᴊᴏɪɴ <b>https://t.me/+Rh_eKVXt0tJkOWY1</b> ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
