@@ -1,6 +1,6 @@
 #(©)Codexbotz
 
-import pyrogram.u#(©)Codexbotz
+import pyrogram
 
 import pyrogram.utils
 
