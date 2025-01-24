@@ -20,7 +20,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002097979375"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "2036803347"))
 
 #Port
-PORT = os.environ.get("PORT", "7010")
+PORT = os.environ.get("PORT", "7020")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://animesensei:animesensei11@animesensei.o6zhyp8.mongodb.net/?retryWrites=true&w=majority")
@@ -28,8 +28,8 @@ DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 # Put 0 on on that which you don't want to enable
 FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "-1002491040507"))
-FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "-1001358581734"))
-REQUEST_CHANNEL = int(os.environ.get("REQUEST_CHANNEL", "-1002309621610"))
+FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "-1002038620816"))
+REQUEST_CHANNEL = int(os.environ.get("REQUEST_CHANNEL", "-1002358818038"))
 
 #TXT
 HELP_TXT = "<b>ʜᴇʟʟᴏ!\nᴛʜɪs ɪs ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇ sʜᴀʀᴇ ʙᴏᴛ ᴏғ @Anime_Sensei_Network\n\n• ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ</b>"
