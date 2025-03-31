@@ -5,7 +5,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6501228626:AAEac_b2Z3S_UQknAz9KcLBftPjhB5K4k_0")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6501228626:AAHG0YlbuMri90OpUxSeHRISD9DaOFUfG34")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "26376042"))
@@ -29,7 +29,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 # Put 0 on on that which you don't want to enable
 FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "-1002491040507"))
 FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "-1002565019620"))
-REQUEST_CHANNEL = int(os.environ.get("REQUEST_CHANNEL", "-1002632958656"))
+REQUEST_CHANNEL = int(os.environ.get("REQUEST_CHANNEL", "-1002266498528"))
 
 #TXT
 HELP_TXT = "<b>ʜᴇʟʟᴏ!\nᴛʜɪs ɪs ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇ sʜᴀʀᴇ ʙᴏᴛ ᴏғ @Anime_Sensei_Network\n\n• ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ</b>"
