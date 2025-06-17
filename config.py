@@ -5,7 +5,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6501228626:AAH5xLaqSLAA220M0IcNbRyq1iwkQu6uJaU")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6813308007:AAEXjvP9N495nEbclTv6c4RXfO6gGyEdZNA")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "26376042"))
@@ -20,15 +20,15 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002097979375"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "2036803347"))
 
 #Port
-PORT = os.environ.get("PORT", "8060")
+PORT = os.environ.get("PORT", "8080")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://animesensei:animesensei11@animesensei.o6zhyp8.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 # Put 0 on on that which you don't want to enable
-FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "-1002491040507"))
-FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "-1002268666775"))
+FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "-1001717121807"))
+FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "-1001912002678"))
 REQUEST_CHANNEL = int(os.environ.get("REQUEST_CHANNEL", "-1002621626578"))
 
 #TXT
