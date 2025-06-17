@@ -5,7 +5,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6501228626:AAHFRWZfJ7_gucpiu175_-VWgD14Xr9BzVc")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6501228626:AAH5xLaqSLAA220M0IcNbRyq1iwkQu6uJaU")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "26376042"))
@@ -27,9 +27,9 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://animesensei:animesensei11
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 # Put 0 on on that which you don't want to enable
-FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "-1002641526012"))
-FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "-1001912002678"))
-REQUEST_CHANNEL = int(os.environ.get("REQUEST_CHANNEL", "-1002598582835"))
+FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "-1002491040507"))
+FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "-1002268666775"))
+REQUEST_CHANNEL = int(os.environ.get("REQUEST_CHANNEL", "-1002621626578"))
 
 #TXT
 HELP_TXT = "<b>ʜᴇʟʟᴏ!\nᴛʜɪs ɪs ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇ sʜᴀʀᴇ ʙᴏᴛ ᴏғ @Anime_Sensei_Network\n\n• ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ</b>"
