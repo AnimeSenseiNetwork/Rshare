@@ -23,7 +23,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "2036803347"))
 PORT = os.environ.get("PORT", "8050")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://animesensei:animesensei11@animesensei.o6zhyp8.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://userbot:userbot@cluster0.ltasu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 # Put 0 on on that which you don't want to enable
